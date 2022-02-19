@@ -1,0 +1,19 @@
+{
+  "name": "expresssns",
+  "version": "1.0.0",
+  "description": "\"Express SNS service\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JooSeuYoon/expressSNS.git"
+  },
+  "author": "SeuYoon Joo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JooSeuYoon/expressSNS/issues"
+  },
+  "homepage": "https://github.com/JooSeuYoon/expressSNS#readme"
+}
