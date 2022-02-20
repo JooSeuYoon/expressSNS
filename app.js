@@ -6,11 +6,13 @@ const path = require('path');
 const session = require('express-session');
 const nunjucks = require('nunjucks');
 const dotenv = require('dotenv');
+const {sequelize} = require('./models');
 dotenv.config();
 
 const pageRouter = require('./routes/page');
 
 const app = express();
+sequelize.sync();
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine','html');
